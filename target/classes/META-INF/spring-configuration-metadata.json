@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "security.signature",
+      "type": "com.gateway.api.signature.config.SignatureProperties",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.signature.algorithm",
+      "type": "java.lang.String",
+      "description": "签名算法",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties",
+      "defaultValue": "SHA256withRSA"
+    },
+    {
+      "name": "security.signature.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "security.signature.exclude-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties"
+    },
+    {
+      "name": "security.signature.expire-time",
+      "type": "java.lang.Integer",
+      "description": "过期时间，默认60秒",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties",
+      "defaultValue": 60
+    },
+    {
+      "name": "security.signature.include-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties"
+    },
+    {
+      "name": "security.signature.log-enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "security.signature.public-key",
+      "type": "java.lang.String",
+      "sourceType": "com.gateway.api.signature.config.SignatureProperties"
+    }
+  ],
+  "hints": []
+}
