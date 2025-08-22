@@ -8,7 +8,7 @@
         <version>5.8.16</version>
     </dependency>
     <dependency>
-        <groupId>com.xiaobinger.tools</groupId>
+        <groupId>io.github.xiaobinger</groupId>
         <artifactId>gateway-signature</artifactId>
         <version>1.0.1</version>
     </dependency>
