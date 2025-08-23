@@ -183,6 +183,7 @@
                         </goals>
                         <configuration>
                             <skip>true</skip>
+                            <executable>C:/Program Files (x86)/GnuPG/bin/gpg.exe</executable>
                             <gpgArguments>
                                 <arg>--batch</arg>
                                 <arg>--no-tty</arg>
