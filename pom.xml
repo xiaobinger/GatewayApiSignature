@@ -17,7 +17,7 @@
         <jackson.version>2.13.5</jackson.version>
         <lombok.version>1.18.26</lombok.version>
         <reactor.version>3.6.12</reactor.version>
-        <hutool.version>5.8.37</hutool.version>
+        <hutool.version>5.8.25</hutool.version>
         <project.groupId>com.xiaobinger.tools</project.groupId>
     </properties>
 
